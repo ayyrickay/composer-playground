@@ -1,0 +1,10 @@
+.Composer {
+    height: 70vh;
+}
+
+@media screen and (min-width: 600px) {
+    .Composer {
+      flex-grow: 4;
+      height: 100vh
+    }
+  }

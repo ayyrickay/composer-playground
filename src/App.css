@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+
+@media screen and (min-width: 600px) {
+  .App {
+    flex-flow: row;
+  }
 }
 
 .App-logo {
